@@ -46,29 +46,22 @@ body {
 }
 
 .middle {
+  flex: 1;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-
-  /* border: 2px solid black; */
 }
 
 .middle .cards {
   display: flex;
-  /* align-items: stretch; */
   flex-wrap: wrap;
-
+  gap: 32px;
   padding: 48px;
-  gap: 48px;
-
-  /* border: 5px solid black; */
 }
 
 .middle .sidebar {
   flex-shrink: 0;
   padding: 16px;
-
-  /* border: 2px solid black; */
 }
 
 .sidebar ul {
@@ -82,10 +75,8 @@ li a {
 }
 
 .card {
-  /* height: auto; */
   flex-basis: 250px;
-  padding: 10px;
-  /* justify-self: stretch; */
+  padding: 16px;
 }
 
 
